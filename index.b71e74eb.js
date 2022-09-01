@@ -1377,6 +1377,6 @@ customElements.define("scissor-component", class Scissor extends HTMLElement {
 },{"url:../../assets/images/scissor-hand.svg":"glbvx"}],"glbvx":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("7UhFu") + "scissor-hand.dc0b8013.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}]},["iJYvl","h7u1C"], "h7u1C", "parcelRequire96a8")
+},{"./helpers/bundle-url":"lgJ39"}]},["iJYvl","h7u1C"], "h7u1C", "parcelRequire51a0")
 
 //# sourceMappingURL=index.b71e74eb.js.map
