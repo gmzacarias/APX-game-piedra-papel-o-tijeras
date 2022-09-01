@@ -552,8 +552,8 @@ var _game = require("../src/pages/game/game");
 var _score = require("../src/pages/score-game/score");
 const BASE_PATH = "/APX-game-piedra-papel-o-tijeras";
 function isGithubPages() {
-    console.log(location.host.includes("github.io"));
-    return location.host.includes("github.io");
+    console.log(location.host.includes("gmzacarias.github.io"));
+    return location.host.includes("gmzacarias.github.io");
 }
 const routes = [
     {
@@ -591,8 +591,8 @@ function initRouter(container) {
             container.appendChild(el);
         }
     }
-    if (location.pathname == "/") goTo("/welcomegame");
-    else handleRoute(location.pathname);
+    location.pathname;
+    goTo("/welcomegame");
     window.onpopstate = ()=>{
         handleRoute(location.pathname);
     };
@@ -1377,6 +1377,6 @@ customElements.define("scissor-component", class Scissor extends HTMLElement {
 },{"url:../../assets/images/scissor-hand.svg":"glbvx"}],"glbvx":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("7UhFu") + "scissor-hand.dc0b8013.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}]},["iJYvl","h7u1C"], "h7u1C", "parcelRequire51a0")
+},{"./helpers/bundle-url":"lgJ39"}]},["iJYvl","h7u1C"], "h7u1C", "parcelRequire555a")
 
 //# sourceMappingURL=index.b71e74eb.js.map
