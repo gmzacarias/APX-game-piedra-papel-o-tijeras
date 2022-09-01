@@ -6,8 +6,8 @@ import { initScoreGamePage } from "../src/pages/score-game/score"
 const BASE_PATH = "/APX-game-piedra-papel-o-tijeras";
 
 function isGithubPages() {
-    console.log(location.host.includes("github.io"));
-    return location.host.includes("github.io"); 
+    console.log(location.host.includes("gmzacarias.github.io"));
+    return location.host.includes("gmzacarias.github.io"); 
 }
 
 const routes = [
@@ -52,7 +52,7 @@ export function initRouter(container: any){
         }
     }
 
-    if(location.pathname == "/"){
+    if(location.pathname == "/" || "/APX-game-piedra-papel-o-tijeras"){
         goTo("/welcomegame")
     } else {
         handleRoute(location.pathname)
