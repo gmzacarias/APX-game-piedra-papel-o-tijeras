@@ -1,0 +1,18 @@
+{
+  "name": "APX-game-piedra-papel-o-tijeras",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "scripts": {
+    "dev": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir build --public-url /APX-game-piedra-papel-o-tijeras",
+    "deploy":"gh-pages -d build"
+    
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+   
+  }
+}
