@@ -1,5 +1,5 @@
 {
-  "name": "APX-game-piedra-papel-o-tijeras",
+  "name": "desafio-modulo-5",
   "version": "1.0.0",
   "license": "MIT",
   "devDependencies": {
@@ -7,8 +7,9 @@
   },
   "scripts": {
     "dev": "parcel serve ./src/index.html",
-    "build": "parcel build ./src/index.html --dist-dir build --public-url /APX-game-piedra-papel-o-tijeras",
-    "deploy":"gh-pages -d build"
+    "build": "parcel build ./src/index.html",
+    "deploy":"gh-pages -d ./dist",
+    "build-and-deploy":"npm run build && npm run deploy"
     
   },
   "dependencies": {
